@@ -19,13 +19,39 @@ lab, and none of them is worth spending the session on:
 - **git** installed and able to push to GitHub.
 - A text editor and a browser with DevTools.
 
-## What you will submit
+## The deliverable
 
-A **public** GitHub repository containing the source of your page, published with **GitHub Pages**.
-The repository's `README.md` must contain the URL of the published site.
+You are delivering **two things that point at each other**: a repository with the source of your
+page, and that same page published and reachable on the open web.
 
-Submit the URL of the **repository** on Canvas. A repository whose Pages URL is missing, broken or
-private will not be reviewed.
+**1. The repository.** Create a **new, empty, public** repository in **your own** GitHub account,
+named `webtech-lab-01`. Do not fork this one, and do not reuse a repository from another course.
+
+**2. The files.** At the root of the repository:
+
+| File | What it is |
+|---|---|
+| `index.html` | Your page. The name matters — GitHub Pages serves it as the site's home page. |
+| At least one `.css` file | Your stylesheet. The name is up to you. |
+| `README.md` | See below. |
+
+Any images you use are also committed to the repository. Do not link to an image sitting on someone
+else's server.
+
+**3. The published site.** Enable **GitHub Pages** on the repository, serving from the root of your
+default branch. The resulting URL looks like `https://<your-user>.github.io/webtech-lab-01/`. Open
+it in a private window before you submit: if it does not load there, it is not published.
+
+**4. The two links.** Both are required, in both directions:
+
+- Your `README.md` contains your full name and the **URL of the published site**.
+- Your page contains a link to **the repository** it was built from.
+
+**5. Canvas.** Submit **one** of the two URLs — the repository or the published site, whichever you
+prefer. Because each one links to the other, either is a valid way in. Submitting a URL that does
+not lead to the other half is an incomplete delivery.
+
+This lab is **individual**. One submission per student.
 
 ---
 
@@ -55,7 +81,8 @@ The page is about you. It must contain at least:
 - At least **two** items that stand on their own — a project, a course, a job, something you have
   built or done. Each one has its own heading and its own description.
 - At least one image with a caption.
-- At least one link to a site outside your page, and one link to your GitHub profile.
+- At least one link to a site outside your page, one link to your GitHub profile, and the link to
+  this page's own repository required by the deliverable.
 - A contact form. See requirement 6.
 
 ### 3. Semantic markup
@@ -142,10 +169,10 @@ You are expected to work from the official documentation rather than from tutori
 | Layout: Grid and Flexbox, each used for the right shape | 20 |
 | Responsive behaviour at 375px and 1280px | 15 |
 | Accessibility: alt text, labels, contrast, keyboard and focus | 15 |
-| Published on GitHub Pages, URL in the README | 5 |
+| Delivery: published on GitHub Pages, and the repository and the page link to each other | 5 |
 
 Using a CSS framework, JavaScript or a page builder voids the layout and semantics sections.
 
 ## Deadline
 
-**Thursday, August 13, 20:00**, on Canvas.
+**Tuesday, August 11, 20:00**, on Canvas.
